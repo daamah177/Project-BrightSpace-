@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: larger;
+    text-align: center;
+}
+h2 {
+    font-size: larger;
+    margin: 20px 0;
+}
+h3 {
+  font-size: larger;
+}
+p {
+    text-align: center;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-header {
+    margin: 50px;
+}
+
+label {
+  display: block;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.two-column {
+  display: flex;
+  gap: 20px;
+}
+
+.two-column .form-group {
+  flex: 1;
+}
+
+.four-column {
+  display: flex;
+  gap: 20px;
+}
+
+.four-column .form-group {
+  flex: 1;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-logo {
+    position: absolute;
+    /* text-align: center; */
+    left: 42.5%;
+    /* transform: translateX(10%); */
+}
+
+.navbar-logo img {
+    width: 25%;
+    height: auto;
+}
+
+.submit-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #173451;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #173451;
+}
+
+.user {
+  text-align: right;
+  margin: 10px 10px;
+  font-weight: bold;
+}
+
+.user p {
+    text-align: right;
+}
