@@ -58,6 +58,46 @@ body {
   width: 50px;
 }
 
+.sidebar #btn-close:hover {
+  cursor: pointer;
+}
+
+/*Makes changes to sidebar when it is collapsed*/
+.sidebar.collapsed {
+  width: 70px;
+}
+
+.sidebar.collapsed .nav-list .links-name{
+  display:none;
+}
+
+.sidebar.collapsed .nav-list{
+  text-align: center;
+  width:100%;
+}
+
+.sidebar.collapsed img, .sidebar.collapsed .search-box, .sidebar.collapsed .name-job .name {
+  display:none;
+}
+
+.sidebar.collapsed #btn-close {
+  visibility: visible;
+  left: 55%;
+  width:50%;
+  text-align: center;
+}
+
+.sidebar.collapsed #log-out {
+  left: 70%;
+}
+
+.sidebar.collapsed .name-job .job{
+  transform: translateY(3.5vh);
+  text-align: center;
+  left: 70%;
+}
+/**/
+
 .sidebar .nav-list {
   margin-top: 20px;
   width: 100%;
